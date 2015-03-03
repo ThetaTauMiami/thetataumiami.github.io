@@ -2,6 +2,9 @@
 # This file contains configuration flags to customize your site
 #
 
+# Encoding
+encoding: utf-8
+
 # Name of your site (displayed in the header)
 name: Theta Tau - Tau Delta Chapter
 
