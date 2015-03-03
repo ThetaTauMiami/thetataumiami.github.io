@@ -2,104 +2,104 @@
 layout: page
 ---
 
-	<div id="myCarousel" class="carousel slide">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			{% for post in site.posts limit:5 %}
-			<li data-target="#myCarousel" data-slide-to="{{ forloop.index }}"></li>
-			{% endfor %}
-		</ol>
-
-		<!-- Wrapper for slides -->
-		<div class="carousel-inner">
-            
-			{% for post in site.posts limit:5 %}
-            {% if forloop.index == 1 %}
-			<div class="item active">
-            {% else %}
-			<div class="item">
-            {% endif %}
-				<div class="fill"
-					style="background-image: url('{{ post.image }}');"></div>
-				<div class="carousel-caption">
-					<a href="{{ site.baseurl }}{{ post.url }}" style="color:#ffffff">
-						<h1>{{ post.title }}</h1>
-						<h4>{{ post.content | strip_html | truncatewords:20 }}</h4>
-					</a>
-				</div>
-			</div>
-			{% endfor %}
-			<div class="item">
-				<div class="fill"
-					style="background-image: url('/images/thetataucrest.png'); background-size: contain; background-repeat: no-repeat; background-color: #666666;"></div>
-				<div class="carousel-caption">
-					<a href="http://www.thetatau.org" style="color:#ffffff">
-						<h1>Theta Tau</h1>
-						<h4>The Nation's Oldest and Largest Professional Engineering Fraternity</h4>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- Controls -->
-		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-			<span class="icon-prev"></span>
-		</a> <a class="right carousel-control" href="#myCarousel"
-			data-slide="next"> <span class="icon-next"></span>
-		</a>
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    {% for post in site.posts limit:5 %}
+    <li data-target="#myCarousel" data-slide-to="{{ forloop.index }}"></li>
+    {% endfor %}
+  </ol>
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    
+    {% for post in site.posts limit:5 %}
+    {% if forloop.index == 1 %}
+    <div class="item active">
+      {% else %}
+      <div class="item">
+        {% endif %}
+	<div class="fill"
+	     style="background-image: url('{{ post.image }}');"></div>
+	<div class="carousel-caption">
+	  <a href="{{ site.baseurl }}{{ post.url }}" style="color:#ffffff">
+	    <h1>{{ post.title }}</h1>
+	    <h4>{{ post.content | strip_html | truncatewords:20 }}</h4>
+	  </a>
 	</div>
-
-	<div class="section">
-
-		<div class="container">
-
-			<div class="row">
-				<div class="col-lg-4 col-md-4">
-					<h3>
-						<i class="fa fa-check-circle"></i> Service
-					</h3>
-					<p>
-						Since our certification as a colony on January 26, 2013 and initiation 
-                        as a chapter on December 13, 2014, the members of the 
-						Tau Delta Chapter of Theta Tau have been working diligently 
-						to establish our selves as an influential organization - both within 
-						Miami University and the community of Oxford, OH. As engineers, our 
-						members understand that it is our civic duty to serve and inspire 
-						those around us. 
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<h3>
-						<i class="fa fa-pencil"></i> Professional Development
-					</h3>
-					<p>
-						Our vision as a fraternity is to create an environment in which our 
-						members can exercise their natural skills as students and leaders, 
-						while also developing their skills as future employees. With a unique 
-						professional emphasis on both the present and the future, we allow for 
-						our members to focus on today, but prepare for tomorrow.
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<h3>
-						<i class="fa fa-folder-open"></i> Brotherhood
-					</h3>
-					<p>
-						Our members pride themselves upon sharing a brotherhood unlike any other
-						 - one built around academic achievement, professional preparation, and 
-						 a mutual desire for success. With all of this brotherhood comes the 
-						 development of lasting friendships that not only strengthen the achievements 
-						 of our fraternity, but foster a mindset of social activism, which allows for 
-						 our brothers to branch out and succeed not only in the classroom and the 
-						 workplace, but everywhere they go.  
-					</p>
-				</div>
-			</div>
-			<!-- /.row -->
-
-		</div>
-		<!-- /.container -->
-
+      </div>
+      {% endfor %}
+      <div class="item">
+	<div class="fill"
+	     style="background-image: url('/images/thetataucrest.png'); background-size: contain; background-repeat: no-repeat; background-color: #666666;"></div>
+	<div class="carousel-caption">
+	  <a href="http://www.thetatau.org" style="color:#ffffff">
+	    <h1>Theta Tau</h1>
+	    <h4>The Nation's Oldest and Largest Professional Engineering Fraternity</h4>
+	  </a>
 	</div>
-	<!-- /.section -->
+      </div>
+    </div>
+    
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a> <a class="right carousel-control" href="#myCarousel"
+	    data-slide="next"> <span class="icon-next"></span>
+    </a>
+  </div>
+  
+  <div class="section">
+    
+    <div class="container">
+      
+      <div class="row">
+	<div class="col-lg-4 col-md-4">
+	  <h3>
+	    <i class="fa fa-check-circle"></i> Service
+	  </h3>
+	  <p>
+	    Since our certification as a colony on January 26, 2013 and initiation 
+            as a chapter on December 13, 2014, the members of the 
+	    Tau Delta Chapter of Theta Tau have been working diligently 
+	    to establish our selves as an influential organization - both within 
+	    Miami University and the community of Oxford, OH. As engineers, our 
+	    members understand that it is our civic duty to serve and inspire 
+	    those around us. 
+	  </p>
+	</div>
+	<div class="col-lg-4 col-md-4">
+	  <h3>
+	    <i class="fa fa-pencil"></i> Professional Development
+	  </h3>
+	  <p>
+	    Our vision as a fraternity is to create an environment in which our 
+	    members can exercise their natural skills as students and leaders, 
+	    while also developing their skills as future employees. With a unique 
+	    professional emphasis on both the present and the future, we allow for 
+	    our members to focus on today, but prepare for tomorrow.
+	  </p>
+	</div>
+	<div class="col-lg-4 col-md-4">
+	  <h3>
+	    <i class="fa fa-folder-open"></i> Brotherhood
+	  </h3>
+	  <p>
+	    Our members pride themselves upon sharing a brotherhood unlike any other
+	    - one built around academic achievement, professional preparation, and 
+	    a mutual desire for success. With all of this brotherhood comes the 
+	    development of lasting friendships that not only strengthen the achievements 
+	    of our fraternity, but foster a mindset of social activism, which allows for 
+	    our brothers to branch out and succeed not only in the classroom and the 
+	    workplace, but everywhere they go.  
+	  </p>
+	</div>
+      </div>
+      <!-- /.row -->
+      
+    </div>
+    <!-- /.container -->
+    
+  </div>
+  <!-- /.section -->
