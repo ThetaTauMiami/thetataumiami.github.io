@@ -1,4 +1,4 @@
-+uniqueid,first_name,last_name,grad_year,pledge_class
+#NAME?,first_name,last_name,grad_year,pledge_class
 banksja3,Joey,Banks,2015,Charter
 bergma,Michael,Berg,2015,Charter
 brambljb,Jesse,Bramble,2014,Charter
@@ -28,7 +28,7 @@ cartercj,Christian,Carter,2016,Alpha
 denisssj,Stephen,Denissoff,2016,Alpha
 johns621,Anna,Johnson,2017,Alpha
 loomisdf,Daltin,Loomis,2017,Alpha
-luww,Wei,Wei,Lu,2015,Alpha
+luww,Wei,Lu,2015,Alpha
 marshaa6,Abria,Marshall,2016,Alpha
 mille697,Savanna,Miller,2015,Alpha
 moralea2,Alan,Morales,2016,Alpha
