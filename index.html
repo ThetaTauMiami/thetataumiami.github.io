@@ -5,8 +5,8 @@ layout: page
 <div id="myCarousel" class="carousel slide">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    {% for post in site.posts limit:1 %}
+    <li data-target="#myCarousel" data-slide-to="5" class="active"></li>
+    {% for post in site.posts limit:0 %}
     <li data-target="#myCarousel" data-slide-to="{{ forloop.index }}"></li>
     {% endfor %}
   </ol>
