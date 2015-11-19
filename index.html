@@ -6,7 +6,7 @@ layout: page
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:1 %}
     <li data-target="#myCarousel" data-slide-to="{{ forloop.index }}"></li>
     {% endfor %}
   </ol>
@@ -14,7 +14,7 @@ layout: page
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:1 %}
     {% if forloop.index == 1 %}
     <div class="item active">
       {% else %}
