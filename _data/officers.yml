@@ -1,29 +1,29 @@
 - position: President
-  uniqueid: jacobdp
-  first_name: David
-  last_name: Jacob
-  ordering: 1
-  
-- position: Vice President
-  uniqueid: cartercj
-  first_name: Christian
-  last_name: Carter
-  ordering: 2
-
-- position: Treasurer
   uniqueid: shaverjt
   first_name: John
   last_name: Shaver
+  ordering: 1
+  
+- position: Vice President
+  uniqueid: pantusen
+  first_name: Emily
+  last_name: Pantuso
+  ordering: 2
+
+- position: Treasurer
+  uniqueid: wilso199
+  first_name: Brandon
+  last_name: Wilson
   ordering: 3
   
 - position: Recording Secretary
-  uniqueid: purdieja
-  first_name: Julie 
-  last_name: Purdie
+  uniqueid: rudolpm2
+  first_name: Marcia 
+  last_name: Rudolph
   ordering: 4
   
 - position: Corresponding Secretary
-  uniqueid: scottac4
-  first_name: Allyson 
-  last_name: Scott
+  uniqueid: rygelsbt
+  first_name: Brett
+  last_name: Rygelski
   ordering: 5
