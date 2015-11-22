@@ -1,4 +1,7 @@
-/* 
+---
+---
+
+/*
 This website is formatted based on the theme 'Modern Business' from http://startbootstrap.com
 
 This theme is licensed under Apache License 2.0
@@ -43,6 +46,16 @@ body {
   border-radius: 5px;
   padding: 5px;
   border: 1px solid #cccccc;
+}
+
+.member-picture-wrapper {
+  background-repeat: no-repeat;
+  .member-picture {
+  background:url('/images/missing-image.png');
+    height: 302px;
+    width: 216px;
+    display: block;
+  }
 }
 
 /* Half Page Height Carousel Customization */

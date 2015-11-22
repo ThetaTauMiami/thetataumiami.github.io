@@ -42,9 +42,11 @@ permalink: /about/
 {% assign officers = site.data.officers | sort: 'ordering' %}
     {% for officer in officers %}
         <div class="col-sm-4">
-            <img class="img-responsive" src="/images/members/{{ officer.uniqueid }}.jpg">
-            <h3>{{ officer.first_name }} {{ officer.last_name }} <small>{{ officer.position }}</small></h3>
-            <hr />
+          <div class='member-picture-wrapper'>
+            <img class="img-responsive member-picture" src="/images/members/{{ officer.uniqueid }}.jpg">
+          </div>
+          <h3>{{ officer.first_name }} {{ officer.last_name }} <small>{{ officer.position }}</small></h3>
+          <hr />
 
         </div>
     {% endfor %}
