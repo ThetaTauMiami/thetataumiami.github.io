@@ -4,7 +4,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = "Name: " . $name . "\r\n" . "Reply-To:" . $email . "\r\n" .$_POST['msgtext'];
 
-$headers = "From: thetataumiami.com" . "\r\n";
+$headers = "From: Vutisat@miamioh.edu" . "\r\n";
 
 $to = "thetatau@miamioh.edu";
 $subject = "New message from the website!";
