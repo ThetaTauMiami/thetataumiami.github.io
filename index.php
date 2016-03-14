@@ -1,5 +1,5 @@
 <?php 
-header('Location: index.html');
+header('Location: contact.html');
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = "Name: " . $name . "\r\n" . "Reply-To:" . $email . "\r\n" .$_POST['msgtext'];
